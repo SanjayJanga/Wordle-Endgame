@@ -1,16 +1,38 @@
-# React + Vite
+# Wordle Endgame 🧩
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Wordle Endgame is a web-based word guessing game where players must guess a hidden five-letter word within six attempts. Each guess provides color-coded feedback to help narrow down the correct word.
 
-Currently, two official plugins are available:
+🌐 Live App: https://wordle-endgame.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## How It Works
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Enter a five-letter English word
+- Submit your guess
+- Tile colors show accuracy:
+  - Green → Correct letter & position
+  - Yellow → Correct letter, wrong position
+  - Gray → Letter not in the word
+- Win by guessing the word in six tries or fewer
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Wordle-inspired gameplay
+- Real-time feedback
+- Minimal and clean interface
+- Responsive design for all devices
+
+---
+
+## Built With
+
+- React
+- JavaScript
+- CSS
+- Vercel (Deployment)
+
+---
+
